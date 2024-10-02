@@ -9,7 +9,7 @@ const CardContainer = () => {
     // console.log(data)
   return (
     <>
-        <Container>
+        <Container className='player-container'>
             <Row>
                 {data.map((player)=>(
                     <Col key={player.name}>

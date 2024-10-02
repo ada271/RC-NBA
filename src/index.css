@@ -8,3 +8,27 @@ body{
     background-color: #f4d467 !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.player-container{
+background-image:url("https://p4.wallpaperbetter.com/wallpaper/661/973/110/cool-nba-logo-wallpaper-preview.jpg");
+}
+
+
+/* Card Styles */
+
+.player-kard{
+    height: 400px;
+    max-width: 280px;
+}
+
+.player-foto{
+    height: 350px;
+    transition:transform .9s ;
+
+}
+.player-kard:hover{
+    box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, .5);
+}
+.player-kard:hover .player-foto{
+    transform: scale(.95);
+}
