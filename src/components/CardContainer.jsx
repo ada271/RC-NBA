@@ -13,7 +13,7 @@ const CardContainer = () => {
             <Row>
                 {data.map((player)=>(
                     <Col key={player.name}>
-                        <Player/>
+                        <Player {...player}/>
                     </Col>
                 ))}
             </Row>
