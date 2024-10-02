@@ -9,10 +9,10 @@ const CardContainer = () => {
     // console.log(data)
   return (
     <>
-        <Container className='player-container'>
-            <Row>
+        <Container className='player-container my-4 rounded-4 p-3'>
+            <Row className='g-3 justify-content-center'>
                 {data.map((player)=>(
-                    <Col key={player.name}>
+                    <Col md={6} lg={4} xl={3}  key={player.name}>
                         <Player {...player}/>
                     </Col>
                 ))}
